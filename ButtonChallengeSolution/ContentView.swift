@@ -17,6 +17,7 @@ struct ContentView: View {
     @State private var currentColor: Color = .black
     @State private var newName = ""
     
+    
     var body: some View {
         VStack {
             //Textfield
